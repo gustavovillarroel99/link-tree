@@ -12,6 +12,9 @@
     --verde-pantano:#798252;
     --marrom:#331F19;
     --azul-bebê:#1b66ff;
+    --gray:#333333;
+    --terracota:#7a2216;
+    --cinza-claro:#c0c0c0;
 
 }
 body{
@@ -19,10 +22,60 @@ body{
     border: ipx solid red;
 
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 div{
     background-color: var(--marrom);
     color: var(--branco);
     width: 384px;
+    text-align: center;
+    border-radius: 12px;
+    padding: 40px;
+}
+
+img{
+    width: 88px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+strong{
+    color: var(--verde-pantano);
+    font-size: 14px;
+}
+
+p{
+    margin-block: 24px;
+    font-size: 14px;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a{
+    display: block;
+    background-color: var(--cinza-claro);
+    color: var(--terracota);
+   margin-bottom: 16px;
+   padding: 12px;
+   text-decoration: none;
+   font-size: 14px;
+   font-weight: 700;
+   border-radius: 8px;
+}
+
+a:hover{
+    background-color: var(--verde-pantano);
+    color: var(--terracota);
+    transition: 0.4s;
 }
